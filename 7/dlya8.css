@@ -23,10 +23,10 @@ input[type="text"], input[type="email"], select[type="select"] {
     font-size: 18px;
     margin-bottom: 5px;
     background-color: #cf2d40;
-    color: white;
     text-decoration-color: white;
     border-color: #fc4255;
     padding-left: 10px;
+    color: white;
     }
  input[type="write"]{
     width: 400px;
@@ -38,11 +38,22 @@ input[type="text"], input[type="email"], select[type="select"] {
     text-decoration-color: white;
     border-color: #fc4255; 
     padding-left: 10px;
-    padding-bottom: 90px;
+    padding-bottom: 110px;
+    color: white;
+	padding-top: 20px;
 }
 button{
     font-weight: 700;
     color: red;
     width: 430px;
     height: 40px
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="write"]::-webkit-input-placeholder {
+    color: white;
 }
