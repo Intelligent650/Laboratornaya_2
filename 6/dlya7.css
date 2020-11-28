@@ -1,0 +1,12 @@
+.knop {
+    background: #808080; 
+    color: white;
+    font-family: 'Times New Roman', serif;
+   }
+   .tekst {
+     font-size: 32pt;
+   }
+   input:checked + span {
+    background: #fc0;
+   }
+   

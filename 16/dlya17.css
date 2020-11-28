@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+    width: 700px;
+}
+li {
+    padding: 12px;
+    border-bottom: 1px solid #d6cece;
+    position: relative;
+}
+h2 {
+  padding: 12px;
+  display: block;
+  border-bottom: 1px solid black;
+}
+li:last-child {
+    border-bottom: 1px solid #777;
+}
+label {
+    width: 150px;
+    display: inline-block;
+}
+input {
+    height: 20px;
+    width: 220px;
+    padding: 5px;
+    box-shadow: 1px 0 3px black;
+}
+textarea {
+    padding: 5px;
+    width: 300px;
+    box-shadow: 0 0 3px black;
+}
+button {
+    margin-left: 156px;
+}
+input:focus {
+    padding-right: 30px;
+    }
+textarea:focus {
+    padding-right: 30px;
+}
+span {
+  color: red;
+  font-size: 100;
+}
+input:required:valid  {
+    background-image: url('https://img.icons8.com/color/452/checkmark.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+        box-shadow: 0 0 5px #1cff08;
+        border-color: #1cff08;}
+ input:focus:invalid  {
+      background-image: url('https://emojitool.ru/img/apple/ios-13.3/cross-mark-1627.png');
+     background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+          box-shadow: 0 0 5px #1cff08;
+        border-color: #1cff08;}
+        button.submit {
+            background-color: #68b12f;
+            border: 1px solid #6aa82b;
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+            padding: 6px 20px;
+            text-align: center;
+        }

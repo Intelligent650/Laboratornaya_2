@@ -1,0 +1,12 @@
+table {
+  width: 450px;
+    height: 150px;
+  border-collapse: collapse;
+  background: #dddeed;
+  text-align: center;
+}
+th {border: 1px solid white;}
+td {border: 1px solid white;}
+.asd {color: white;
+  background: #bdbfde;
+}
